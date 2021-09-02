@@ -46,10 +46,10 @@ h2{
 .fc img{
     height: 50px;
     border-radius: 0;
-    padding: 5px;
 }
 .fc{
     margin: auto;
+    display: flex;
 }
 #lang{
     cursor: pointer;

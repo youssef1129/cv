@@ -1,4 +1,4 @@
-#cnt{
+.cnt{
     display: flex;
     background-color: ghostwhite;
 }
@@ -51,9 +51,11 @@ h2{
 .fc{
     margin: auto;
 }
-
+#lang{
+    cursor: pointer;
+}
 @media screen and (max-width:600px) {
-    #cnt{
+    .cnt{
         display: initial;
     }
 }

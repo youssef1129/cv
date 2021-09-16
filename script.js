@@ -20,4 +20,11 @@ $(document).ready(()=>{
             $('#en').slideToggle(1000)
         }
     })
+
+    $('#mail').click(()=>{
+        $('#ml').fadeToggle("slow");
+        $('#ml').fadeToggle("slow");
+        $('#ml').fadeToggle("slow");
+        $('#ml').fadeToggle("slow")
+    })
 })

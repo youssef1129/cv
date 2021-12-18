@@ -66,7 +66,7 @@ h2{
 #lang{
     cursor: pointer;
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:800px) {
     .cnt{
         display: initial;
     }

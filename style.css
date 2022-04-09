@@ -32,11 +32,14 @@ a {
 }
 hr {
   width: -webkit-fill-available;
+  height: 1;
+  background: #c3c3c3;
 }
 h1 {
   text-align: center;
 }
 #rc {
+  display: grid;
   width: -webkit-fill-available;
   padding: 20px;
   box-shadow: 4px 6px 14px 2px #2d3342;

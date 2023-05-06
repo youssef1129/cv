@@ -48,6 +48,7 @@ h1 {
   background-color: white;
 }
 #lc {
+  min-width: 250px;
   padding: 20px;
   box-shadow: 4px 6px 14px 2px #2d3342;
   margin: 5px;
@@ -67,42 +68,41 @@ h2 {
   justify-content: center;
 }
 #lang {
-    margin-top: 5px;
+  margin-top: 5px;
   cursor: pointer;
 }
-ul{
-    list-style: circle;
+ul {
+  list-style: circle;
 }
 .skills {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(90px, 1fr));
-    grid-auto-rows: 40px;
-    row-gap: 20px;
-    column-gap: 10px;
-    grid-auto-flow: dense;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  grid-auto-rows: 40px;
+  row-gap: 20px;
+  column-gap: 10px;
+  grid-auto-flow: dense;
 }
-.skills>li{
-    
-    border-radius: 40px;
-    display: flex;
-    padding: 15px;
-    align-items: center;
-    justify-content: center;
+.skills > li {
+  border-radius: 40px;
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
 }
-.fe{
-    border: solid #ef9a9a;
+.fe {
+  border: solid #ef9a9a;
 }
-.be{
-    border: solid #26c6da;
+.be {
+  border: solid #26c6da;
 }
-.do{
-    border: solid #9ccc65;
+.do {
+  border: solid #9ccc65;
 }
-.bigSkill{
-    grid-column: span 2;
+.bigSkill {
+  grid-column: span 2;
 }
 @media screen and (max-width: 800px) {
   .cnt {
@@ -114,18 +114,19 @@ ul{
 }
 body {
   background-color: ghostwhite;
-  font-family: Comic Sans MS, Comic Sans, cursive;
+  /* font-family: Comic Sans MS, Comic Sans, cursive; */
+  font-family: "Caveat Brush", cursive;
 }
-.con{
-    display: grid;
-    row-gap: 5px;
+.con {
+  display: grid;
+  row-gap: 5px;
 }
-.con img{
-    width: 15px;
+.con img {
+  width: 15px;
 }
-.con a{
-    display: flex;
-    justify-content: space-between;
+.con a {
+  display: flex;
+  justify-content: space-between;
 }
 html::-webkit-scrollbar {
   width: 8px;
@@ -137,4 +138,24 @@ html::-webkit-scrollbar-track {
 html::-webkit-scrollbar-thumb {
   background-color: black;
   border-radius: 10px;
+}
+
+li > span {
+  color: grey;
+}
+
+.empHistory {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.empHistory img {
+  border-radius: 10px;
+  padding: 10px;
+  width: 50px;
+}
+
+.empHistory>section>div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }

@@ -3,7 +3,7 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
-  padding: 1rem 2rem;
+  padding: 0.1rem 0.4rem;
   padding-bottom: 0;
 }
 footer {
@@ -33,6 +33,7 @@ a {
 hr {
   border: solid 1px #dbdbdb;
   width: -webkit-fill-available;
+  height: min-content;
 }
 h1 {
   text-align: center;
@@ -145,7 +146,7 @@ li > span {
 
 .empHistory {
   display: grid;
-  gap: 1rem;
+  /* gap: 1rem; */
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .empHistory img {
@@ -154,15 +155,16 @@ li > span {
   width: 50px;
 }
 
-.empHistory>section>div{
+.empHistory > section > div {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
-section>code{
-  line-break: anywhere;
+section > code {
+  /* line-break: anywhere; */
 }
-.empHistory>section{
+.empHistory > section {
   display: grid;
-    justify-items: center;
+  justify-items: center;
+  align-items: start;
 }

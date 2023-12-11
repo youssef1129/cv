@@ -168,3 +168,11 @@ section > code {
   justify-items: center;
   align-items: start;
 }
+
+p{
+  font-size: 20px;
+}
+
+.empHistory ul{
+  font-size: 18px;
+}

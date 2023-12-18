@@ -214,12 +214,15 @@ p {
 }
 .front {
   color: #ef9a9a;
+  font-weight: bold;
 }
 .back {
   color: #26c6da;
+  font-weight: bold;
 }
 .devops {
   color: #9ccc65;
+  font-weight: bold;
 }
 #title{
   /* background-color: #ef9a9a;
@@ -232,4 +235,5 @@ p {
 
 .date{
   color: #8e8e8e;
+  font-weight: 100;
 }

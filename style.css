@@ -22,13 +22,14 @@ img {
 .sub {
   display: grid;
   justify-content: stretch;
+  gap: 5px;
 }
 h3 {
   text-align: center;
 }
 a {
   text-decoration: none;
-  color: #009688;
+  color: #7b7b7b;
 }
 hr {
   border: solid 1px #dbdbdb;
@@ -37,7 +38,7 @@ hr {
 }
 h1 {
   text-align: center;
-  border-bottom: solid #ef9a9a80;
+  border-bottom: solid #7b7b7b;
   border-bottom-right-radius: 40% 30%;
   place-self: center;
   font-size: 1.5em;
@@ -65,13 +66,13 @@ h1 {
 }
 h2 {
   text-align: center;
-  border-bottom: solid #26c6da80;
+  border-bottom: solid #7b7b7b;
   border-bottom-right-radius: 40% 30%;
   place-self: center;
   font-size: 1em;
 }
 .sub > h4 {
-  border-bottom: solid #9ccc6580;
+  border-bottom: solid #7b7b7b;
   border-bottom-right-radius: 40% 30%;
   place-self: start;
   margin: 10px 0;
@@ -114,6 +115,11 @@ ul {
   padding: 15px;
   align-items: center;
   justify-content: center;
+  color: #7b7b7b;
+}
+#lc ul{
+  color: #7b7b7b;
+  list-style: disc;
 }
 .fe {
   border: solid #ef9a9a;
@@ -198,6 +204,7 @@ section > code {
 
 p {
   font-size: 20px;
+  margin: 0;
 }
 
 .empHistory ul {
@@ -221,4 +228,8 @@ p {
   place-self: center;
   padding: 5px 10px; */
   color: #ef9a9a;
+}
+
+.date{
+  color: #8e8e8e;
 }

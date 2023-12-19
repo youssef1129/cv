@@ -122,13 +122,13 @@ ul {
   list-style: disc;
 }
 .fe {
-  border: solid #ef9a9a;
+  border: 1px dotted #ef9a9a;
 }
 .be {
-  border: solid #26c6da;
+  border: 1px dotted #9ccc65;
 }
 .do {
-  border: solid #9ccc65;
+  border: 1px dotted #26c6da;
 }
 .bigSkill {
   grid-column: span 2;
@@ -214,15 +214,15 @@ p {
 }
 .front {
   color: #ef9a9a;
-  font-weight: bold;
+  font-weight: 500;
 }
 .back {
-  color: #26c6da;
-  font-weight: bold;
+  color: #9ccc65;
+  font-weight: 500;
 }
 .devops {
-  color: #9ccc65;
-  font-weight: bold;
+  color: #26c6da;
+  font-weight: 500;
 }
 #title{
   /* background-color: #ef9a9a;

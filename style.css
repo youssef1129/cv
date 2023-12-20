@@ -205,7 +205,12 @@ li > span {
 .empHistory {
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
+}
+@media screen and (max-width: 800px) {
+  .empHistory {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
 }
 .empHistory h4 {
   text-align: center;

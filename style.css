@@ -150,6 +150,7 @@ h2 {
   align-items: center;
   justify-content: center;
   color: #7b7b7b;
+  white-space: nowrap;
 }
 .fe {
   border: 1px dotted #ef9a9a;

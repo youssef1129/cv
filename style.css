@@ -72,6 +72,11 @@ h1 {
   display: grid;
   align-items: start;
 }
+@media screen and (max-width: 800px) {
+  #lc {
+    width: unset;
+  }
+}
 h2 {
   text-align: center;
   /* border-bottom: solid #b0b0b0; */
@@ -137,7 +142,7 @@ h2 {
   text-align: center;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(92px, 1fr));
   grid-auto-rows: 30px;
   row-gap: 15px;
   column-gap: 10px;
@@ -319,6 +324,11 @@ p {
   padding-bottom: 5px;
 }
 
+@media screen and (max-width: 1000px) {
+  .rightHeader {
+    grid-template-columns: unset;
+  }
+}
 #rc > * {
   place-self: baseline;
 }

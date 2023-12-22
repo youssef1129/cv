@@ -3,7 +3,7 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
-  padding: 0.1rem 2rem;
+  padding: 0.1rem 4rem;
   padding-bottom: 0;
 }
 footer {
@@ -35,9 +35,10 @@ a {
   color: #7b7b7b;
 }
 hr {
-  border: dotted 1px #dbdbdb;
+  /* border: dotted #e0e0e066 1px; */
   width: -webkit-fill-available;
   height: min-content;
+  opacity: 0.3;
 }
 h1 {
   text-align: center;
@@ -51,7 +52,7 @@ h1 {
   /* line-height: 150%; */
 }
 #rc {
-  /* display: grid; */
+  display: grid;
   width: -webkit-fill-available;
   padding: 20px;
   box-shadow: 4px 6px 14px 2px #2d3342;
@@ -68,12 +69,12 @@ h1 {
   margin: 5px;
   border-radius: 10px;
   background-color: white;
-  /* display: grid; */
+  display: grid;
   align-items: start;
 }
 h2 {
   text-align: center;
-  border-bottom: dotted #b0b0b0;
+  /* border-bottom: solid #b0b0b0; */
   border-bottom-right-radius: 140% 40%;
   border-bottom-left-radius: 150% 20%;
   place-self: center;
@@ -83,7 +84,7 @@ h2 {
 }
 .sub > h4,
 .backAndDev h4 {
-  border-bottom: dotted #b0b0b0;
+  /* border-bottom: solid #b0b0b0; */
   border-bottom-right-radius: 140% 40%;
   border-bottom-left-radius: 150% 20%;
   place-self: start;
@@ -216,6 +217,7 @@ li > span {
 }
 .empHistory h4 {
   text-align: center;
+  margin: 0;
 }
 .empHistory img {
   border-radius: 10px;
@@ -227,20 +229,22 @@ li > span {
   display: flex;
   align-items: center;
   gap: 1rem;
-  border-bottom: dotted 1px #e0e0e0;
+  border-bottom: dotted #e0e0e066 1px;
+  justify-content: center;
+  place-self: center;
 }
 section > code {
   /* line-break: anywhere; */
 }
 .empHistory > section {
   display: flex;
-  justify-items: center;
-  border: dotted#9ccc65 1px;
-  padding: 5px;
+  /* justify-items: center; */
+  border: dotted#e0e0e0 1px;
+  padding: 10px 5px;
   border-radius: 10px;
   flex-direction: column;
-  align-items: center;
-  gap: 5px;
+  /* align-items: center; */
+  gap: 10px;
 }
 
 p {
@@ -311,6 +315,8 @@ p {
   gap: 10px;
   grid-template-columns: 68% auto;
   align-items: start;
+  border-bottom: dotted #e0e0e096 1px;
+  padding-bottom: 5px;
 }
 
 #rc > * {
@@ -318,6 +324,6 @@ p {
 }
 
 .rightHeader > .sub:first-child {
-  border-right: dotted 1px #e0e0e0;
+  border-right: dotted #e0e0e096 1px;
   padding: 0 5px;
 }

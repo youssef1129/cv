@@ -3,8 +3,9 @@ body {
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: center;
-  padding: 0.1rem 4rem;
-  padding-bottom: 0;
+  /* padding: 0.1rem 4rem; */
+  /* padding-bottom: 0; */
+  margin: 0;
 }
 footer {
   width: 100%;
@@ -35,10 +36,10 @@ a {
   color: #7b7b7b;
 }
 hr {
-  /* border: dotted #e0e0e066 1px; */
+  border:  solid #f8f8ff 1px; 
   width: -webkit-fill-available;
   height: min-content;
-  opacity: 0.3;
+  /* opacity: 0.3; */
 }
 h1 {
   text-align: center;
@@ -55,7 +56,7 @@ h1 {
   display: grid;
   width: -webkit-fill-available;
   padding: 20px;
-  box-shadow: 4px 6px 14px 2px #2d3342;
+  /* box-shadow: 4px 6px 14px 2px #2d3342; */
   margin: 5px;
   border-radius: 10px;
   background-color: white;
@@ -65,7 +66,7 @@ h1 {
   width: min-content;
   min-width: 250px;
   padding: 20px;
-  box-shadow: 4px 6px 14px 2px #2d3342;
+  /* box-shadow: 4px 6px 14px 2px #2d3342; */
   margin: 5px;
   border-radius: 10px;
   background-color: white;
@@ -244,7 +245,7 @@ section > code {
 .empHistory > section {
   display: flex;
   /* justify-items: center; */
-  border: dotted#e0e0e0 1px;
+  border: solid #f8f8ff 2px;
   padding: 10px 5px;
   border-radius: 10px;
   flex-direction: column;
@@ -316,11 +317,11 @@ p {
 }
 
 .rightHeader {
-  display: grid;
+  /* display: grid;
   gap: 10px;
   grid-template-columns: 68% auto;
   align-items: start;
-  border-bottom: dotted #e0e0e096 1px;
+  border-bottom: dotted #e0e0e096 1px; */
   padding-bottom: 5px;
 }
 

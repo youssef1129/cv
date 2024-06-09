@@ -53,7 +53,7 @@ h1 {
   /* line-height: 150%; */
 }
 #rc {
-  display: grid;
+  /* display: grid; */
   width: -webkit-fill-available;
   padding: 20px;
   /* box-shadow: 4px 6px 14px 2px #2d3342; */
@@ -134,7 +134,7 @@ h2 {
   margin-left: 12px !important;
 }
 #rc ul li::before {
-  content: "- ";
+  content: "• ";
   color: #7b7b7b;
   margin-right: 2px;
 }

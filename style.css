@@ -194,6 +194,7 @@ body {
 .con a {
   display: flex;
   justify-content: space-between;
+  gap: 5px;
 }
 html::-webkit-scrollbar {
   width: 8px;
